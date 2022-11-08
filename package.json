@@ -2,7 +2,7 @@
   "name": "slackbot",
   "version": "1.0.0",
   "description": "slackBot tha randomly chooses a code reviewer",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js"
   },
