@@ -46,7 +46,7 @@ app.command("/prfront", async ({ command, ack, say }) => {
   try {
     await ack();
     const channelInfo = await app.client.conversations.members({
-      channel: TEAM_CHAN,
+      channel: TEST_CHAN,
     });
     const reviewersInfo = await app.client.users.info({
       user: shuffle(command.user_id, channelInfo.members),
