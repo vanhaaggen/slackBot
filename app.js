@@ -7,7 +7,7 @@ const TEAM_CHAN = process.env.F_TEAM_CHANNEL_ID;
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
   signingSecret: process.env.SLACK_SIGNING_SECRET,
-  // socketMode: true,
+  socketMode: true,
   appToken: process.env.APP_TOKEN,
 });
 
